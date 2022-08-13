@@ -210,7 +210,7 @@ body {
 	width: 42.18vw;
 	height: 52.29vw;
 	border-radius: 7.03vw;
-	background: url('../img/image 6.png') center no-repeat;
+	background: url('../img/image 6.jpg') center no-repeat;
 	background-size: cover;
 	z-index: 2;
 }
@@ -221,7 +221,7 @@ body {
 	width: 28.59vw;
 	height: 30.72vw;
 	border-radius: 7.03vw;
-	background: url('../img/image 7.png') center no-repeat;
+	background: url('../img/image 7.jpg') 80% 50% no-repeat;
 	background-size: cover;
 }
 
@@ -417,7 +417,7 @@ body {
 	width: 100%;
 	height: 48.38vw;
 	border-radius: 0px 0px 7.03vw 7.03vw;
-	background: url('../img/image 14.png') center no-repeat;
+	background: url('../img/image 14.jpg') center no-repeat;
 	background-size: cover;
 	position: relative;
 }
@@ -510,7 +510,7 @@ body {
 	height: 45.83vw;
 	overflow: hidden;
 	border-radius: 7.03vw;
-	background: url('../img/image 15.png') center no-repeat;
+	background: url('../img/image 15.jpg') center no-repeat;
 	background-size: cover;
 }
 
