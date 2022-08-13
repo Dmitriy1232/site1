@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+*,
+*::before,
+*::after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: #ffff;
+}
+ul,
+ol,
+il {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	width: 100%;
+	line-height: 1.3;
+	font-size: 16px;
+	font-family: 'Playfair Display';
+	background-color: #fff;
+	color: #000;
+	font-weight: 400;
+}
+
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.fs {
+	border-radius: 0px 0px 7vw 7vw;
+	overflow: hidden;
+	position: relative;
+}
+.fs_slider {
+	position: relative;
+}
+
+.fs_slider .slick-arrow{
+	position: absolute;
+	top: 50%;
+	z-index: 3;
+	font-size: 0;
+	margin: -1.5vw 0px 0px 0px;
+	width: 3.125vw;
+	height: 3.125vw;
+	background: url('../img/arrowInCircle.svg') 0 0 / 100% no-repeat;
+}
+.fs_slider .slick-arrow.slick-prev{
+	transform: rotate(180deg);
+	left: 1vw;
+}
+.fs_slider .slick-arrow.slick-next{
+	right: 1vw;
+}
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+	align-items: flex-start;
+}
+/* Слайд */
+.slick-slide{
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{
+}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+
+
+
+
+
+.fs_slider__item {
+	width: 100vw;
+	height: 63vw;
+	text-align: center;
+}
+
+.fs_slider__item img {
+	width: 100%;
+	height: 100%;
+	object-position: center;
+	object-fit: inherit;
+}
+
+
+.fs_text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 30;
+	text-align: center;
+	margin: -5.75vw 0px 0px -23.7vw;
+}
+.fs_title {
+	font-size: 6.25vw;
+	color: #fff;
+}
+.fs_subtitle {
+	font-size: 3.33vw;
+	color: #fff;
+}
+
+
+._container{
+	max-width: 93.38vw;
+	padding: 0 0.78vw;
+}
+
+
+
+.ss {
+	width: 100%;
+	height: 64.89vw;
+	position: relative;
+}
+.ss_container {
+	text-align: left;
+	margin: 10.4vw auto 0px auto;
+}
+.ss_title {
+	font-size: 5vw;
+	color: #381206;
+	margin: 0px 0px 2.91vw 0px;
+}
+.ss_list {
+
+}
+.ss_list_item {
+	display: flex;
+	margin: 2.08vw 0px 0px 0px;
+}
+.circle{
+	max-width: 60px;
+	max-height: 60px;
+	width: 3.125vw;
+	height: 3.125vw;
+	border: 0.1vw solid #D8C9B0;
+	border-radius: 50%;
+}
+.ss_list_text{
+	margin: 0px 0px 0px 2.18vw;
+	width: 37vw;
+}
+
+.ss_list_title {
+	font-size: 2.5vw;
+
+
+}
+.ss_list_subtitle {
+	font-family: 'Roboto';
+	font-size: 1.66vw;
+}
+
+.ss_bigimg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 42.18vw;
+	height: 52.29vw;
+	border-radius: 7.03vw;
+	background: url('../img/image 6.png') center no-repeat;
+	background-size: cover;
+	z-index: 2;
+}
+.ss_smallimg {
+	position: absolute;
+	bottom: 0;
+	right: 24.16vw;
+	width: 28.59vw;
+	height: 30.72vw;
+	border-radius: 7.03vw;
+	background: url('../img/image 7.png') center no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+.service_skrin {
+	width: 100%;
+	margin: 10.52vw 0px 0px 0px;
+}
+.service_skrin_container{
+	margin: 0 auto;
+}
+.service_skrin_title {
+	color: #381206;
+	font-size: 5vw;
+}
+.service_skrin_slider {
+	position: relative;
+	margin: 5.625vw 0px 0px 0px;
+}
+.service_slider_item {
+	margin: 0px 0px 0px 5.46vw;
+}
+.serice_img {
+	width: 29.84vw;
+	height: 29.27vw;
+	overflow: hidden;
+	border-radius: 7.03vw;
+}
+.serice_img img{
+	width: 100%;
+	height: 100%;
+	object-position: center;
+	object-fit: inherit;
+}
+.service_title {
+	font-size: 2.5vw;
+	width: 29.84vw;
+}
+.service_text {
+	font-family: 'Roboto';
+	width: 29.84vw;
+	font-size: 1.66vw;
+}
+.service_button {
+}
+.service_button_body {
+	position: absolute;
+	bottom: -8.7vw;
+	width: 29.84vw;
+	height: 6.3vw;
+	background-color: #000;
+	overflow: hidden;
+	border-radius: 7.03vw;
+	text-align: center;
+
+}
+.service_button_text {
+	color: #fff;
+	font-family: 'Roboto';
+	font-size: 1.66vw;
+	text-align: center;
+	margin: 2.07vw 0px 0px 0px;
+}
+
+
+
+.service_skrin_slider .slick-arrow{
+	position: absolute;
+	top: 13.13vw;
+	z-index: 30;
+	font-size: 0;
+	width: 3.125vw;
+	height: 3.125vw;
+	background: url('../img/arrowInCircle.svg') 0 0 / 100% no-repeat;
+}
+.service_skrin_slider .slick-arrow.slick-prev{
+	transform: rotate(180deg);
+	left: 1vw;
+}
+.service_skrin_slider .slick-arrow.slick-next{
+	right: -2.5vw;
+}
+
+
+
+
+
+
+
+
+
+.price_skrin {
+	margin: 18.28vw 0px 0px 0px;
+}
+.price_skrin_container {
+	margin: 0 auto;
+}
+.price_skrin_title {
+	color: #381206;
+	font-size: 5vw;
+}
+.price_slider {}
+.prise_slider_item {
+	text-align: center;
+	height: 39.84vw;
+	width: 29.84vw;
+	background-color: #EADBC1;
+	border-radius: 7.03vw;
+	overflow: hidden;
+	position: relative;
+	margin: 0px 0px 0px 1.145vw;
+}
+.price_number {
+	font-family: 'Roboto';
+	font-size: 5vw;
+	margin: 3.38vw 0px 0px 0px;
+	line-height: 1;
+}
+.price_title {
+	font-size: 2.5vw;
+}
+.price_list {
+	margin: 1.93vw 0px 0px 0px;
+	overflow: visible;
+}
+.prise_list_item {
+	margin: 0px auto 0px auto;
+	text-align: left;
+	width: 19.79vw;
+	font-family: 'Roboto';
+	display: inline-block;
+	font-size: 1.66vw;
+}
+.prise_list_item:last-child{
+	margin-top: 1.61vw;
+}
+.prise_list_item:before{
+	display: inline-block;
+	position: absolute;
+	left: 1.79vw;
+	content: '';
+	width: 2.08vw;
+	height: 2.08vw;
+	border: 0.1vw solid #381206;
+	border-radius: 50%;
+}
+.price_price {
+	font-family: 'Roboto';
+	margin: 3.8vw 0px 0px 0px;
+	font-size: 1.66vw;
+}
+.price_button {
+
+}
+.price_button_body {
+	position: absolute;
+	width: 19.79vw;
+	height: 5.2vw;
+	bottom: 4.375vw;
+	left: 5.025vw;
+	margin: 0px auto 0px auto;
+	text-align: center;
+	background-color: #000;
+	overflow: hidden;
+	border-radius: 7.03vw;
+}
+.price_button_text {
+	font-family: 'Roboto';
+	font-size: 1.66vw;
+	color: #fff;
+	margin: 1.61vw 0px;
+}
+
+
+
+
+.trener_skrin {
+	margin: 10.52vw 0px 0px 0px;
+	width: 100%;
+}
+.trener_skrin_container {
+	margin: 0px auto;
+}
+.trener_skrin_title {
+	color: #381206;
+	font-size: 5vw;
+}
+.trener_skrin_img {
+	margin: 5.625vw 0px 0px 0px;
+	width: 100%;
+	height: 48.38vw;
+	border-radius: 0px 0px 7.03vw 7.03vw;
+	background: url('../img/image 14.png') center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.trener_skrin_text {
+	position: absolute;
+	top: 33.125vw;
+	width: 93.72vw;
+	left: 3.125vw;
+	text-align: center;
+	color: #fff;
+}
+.trener_skrin_subtitle {
+	font-size: 2.5vw;
+}
+.trener_skrin_content {
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 1.66vw;
+}
+
+
+
+.ls {
+	margin: 7.03vw 0px 0px 0px;
+	width: 100%;
+	height: 68.28vw;
+}
+.ls_container {
+	margin: 0px auto;
+	position: relative;
+}
+.ls_title {
+	color: #381206;
+	font-size: 5vw;
+}
+.ls_forms {
+	margin: 11.09vw 0px 0px 2.5vw;
+	width: 29.48vw;
+	text-align: center;
+
+}
+.ls_phone, .ls_name{
+	width: 29.48vw;
+	height: 8.59vw;
+	background-color: #EADBC1;
+	overflow: hidden;
+	border-radius: 7.03vw;
+	position: relative;
+}
+.phone, .form{
+	background-color: #EADBC1;
+	font-family: 'Roboto';
+	font-size: 1.66vw;
+	position: absolute;
+	left: 3.38vw;
+	top: 38%;
+	outline:none;
+}
+.ls_name {
+	margin: 2.29vw 0px 0px 0px;
+
+}
+.ls_button {
+	margin: 2.29vw 0px 0px 0px;
+	width: 29.48vw;
+	height: 8.59vw;
+	background-color: #000;
+	overflow: hidden;
+	border-radius: 7.03vw;
+	display: flex;
+}
+.ls_button_text {
+	font-family: 'Roboto';
+	color: #fff;
+	font-size: 1.875vw;
+	margin: auto;
+
+}
+.ls_text {
+	margin: 2.29vw 0px 0px 3.75vw;
+	width: 21.92vw;
+	font-family: 'Roboto';
+	font-size: 1.25vw;
+}
+.ls_img {
+	position: absolute;
+	right: 4.63vw;
+	top: 11.5vw;
+	width: 47.39vw;
+	height: 45.83vw;
+	overflow: hidden;
+	border-radius: 7.03vw;
+	background: url('../img/image 15.png') center no-repeat;
+	background-size: cover;
+}
+
