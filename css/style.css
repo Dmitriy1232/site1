@@ -189,7 +189,7 @@ body {
 
 
 ._container{
-	max-width: 93.38vw;
+	max-width: 92.1vw;
 	padding: 0 0.78vw;
 }
 
@@ -335,11 +335,12 @@ body {
 	font-size: 0;
 	width: 3.125vw;
 	height: 3.125vw;
-	background: url('../img/icons/arrowInCircle.svg') 0 0 / 100% no-repeat;
+	background: url('../img/icons/arrowInCircle3.svg') 0 0 / 100% no-repeat;
 }
 .service_skrin_slider .slick-arrow.slick-prev{
 	transform: rotate(180deg);
-	left: 1vw;
+	left: -3.1vw;
+	opacity: 0.45;
 }
 .service_skrin_slider .slick-arrow.slick-next{
 	right: -2.5vw;
@@ -363,7 +364,9 @@ body {
 	color: #381206;
 	font-size: 5vw;
 }
-.price_slider {}
+.price_slider {
+	margin: 5.625vw 0px 0px 0px;
+}
 .prise_slider_item {
 	text-align: center;
 	height: 39.84vw;
