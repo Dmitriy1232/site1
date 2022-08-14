@@ -9,7 +9,7 @@ $(document).ready(function(){
 		centerMode:false,
 		fade:false,
 		arrows:true,
-		waitForAnimate:false,
+		waitForAnimate:true,
 		cssEase:'ease',
 		easing:'ease',
 	});
